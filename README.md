@@ -1,3 +1,12 @@
+# Codex Skills - Toolkit personale per sviluppi con Codex
+### Condiviso per colmare il vuoto di skill disponibili e raccogliere migliorie dalla community
+
+Queste sono le skill che utilizzo per i miei sviluppi personali con Codex.
+Ho deciso di pubblicarle perche' ho notato che in giro ce n'e' una certa assenza di skills.
+Se qualcuno ha migliorie da proporre alle skills, sono ben accette. Apri una PR!
+
+---
+
 # Guida operativa repository
 
 Questa guida descrive il flusso consigliato per lavorare su un repository:
