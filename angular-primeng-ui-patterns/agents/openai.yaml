@@ -1,0 +1,4 @@
+interface:
+  display_name: "Angular PrimeNG UI Patterns"
+  short_description: "Build PrimeNG UI with repo conventions"
+  default_prompt: "Create or refine Angular PrimeNG UI code in this repo while preserving library conventions and i18n patterns."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docker Compose Env Parity Check"
+  short_description: "Detect compose env and service drift safely"
+  default_prompt: "Compare development, testing, and staging compose files, classify drifts, and suggest minimal safe alignment."

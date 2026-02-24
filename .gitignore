@@ -1,0 +1,3 @@
+# Ignore local system metadata and IDE settings
+.system/
+.idea/

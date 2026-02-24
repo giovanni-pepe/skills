@@ -1,0 +1,4 @@
+interface:
+  display_name: "Angular OpenAPI Client Consumer"
+  short_description: "Integrate generated API client safely"
+  default_prompt: "Implement frontend changes that consume ng-openapi generated services and models without editing generated files."

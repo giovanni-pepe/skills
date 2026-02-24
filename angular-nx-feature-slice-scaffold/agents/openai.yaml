@@ -1,0 +1,4 @@
+interface:
+  display_name: "Angular Nx Feature Slice Scaffold"
+  short_description: "Scaffold Angular Nx page and feature slices"
+  default_prompt: "Create or update Angular Nx page or feature slices in this repo, including routes and library wiring."

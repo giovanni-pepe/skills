@@ -1,0 +1,4 @@
+interface:
+  display_name: "Django + Angular Nx Delivery Loop"
+  short_description: "Deliver combined Django + Angular Nx changes safely"
+  default_prompt: "Implement backend or frontend changes in this Django + Angular Nx repo with repo-native commands and clear verification."

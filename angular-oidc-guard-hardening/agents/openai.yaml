@@ -1,0 +1,4 @@
+interface:
+  display_name: "Angular OIDC Guard Hardening"
+  short_description: "Harden Angular OIDC guards and token flow"
+  default_prompt: "Audit and improve Angular OIDC auth guards, interceptors, and refresh behavior with minimal changes."

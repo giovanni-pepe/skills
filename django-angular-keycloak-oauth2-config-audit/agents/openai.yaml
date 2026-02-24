@@ -1,0 +1,4 @@
+interface:
+  display_name: "Django + Angular Keycloak OAuth2 Audit"
+  short_description: "Audit combined Django + Angular auth config parity"
+  default_prompt: "Audit this repo Keycloak and OAuth2 settings across the Django backend, Angular frontend, and docker files and propose minimal hardening steps."

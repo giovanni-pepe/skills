@@ -1,0 +1,4 @@
+interface:
+  display_name: "Angular Nx Test Target Setup"
+  short_description: "Add Nx unit test targets pragmatically"
+  default_prompt: "Add or update Angular Nx unit test targets and focused test suites with minimal disruption."
