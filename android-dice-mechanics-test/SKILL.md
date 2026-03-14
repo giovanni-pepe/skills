@@ -4,6 +4,8 @@ description: >-
   Add unit tests (and minimal implementation if missing) for the dice roll mechanics used in the Android app:
   runtime die selection, multiple rolls, keep-best (best-of), and flat modifiers. Use when implementing or
   validating the roll logic for character stats.
+metadata:
+  short-description: "Test deterministic Android dice mechanics"
 ---
 
 # Android Dice Mechanics Test

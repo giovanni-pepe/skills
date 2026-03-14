@@ -1,6 +1,8 @@
 ---
 name: android-offline-character-sheet
 description: Bootstrap and evolve the Ultima Torcia Android app with Jetpack Compose + Room + MVVM to deliver offline character CRUD, sheet editing, autosave, counters/flags, and JSON import/export. Use whenever the repo lacks Android scaffolding or character-sheet workflows need updates.
+metadata:
+  short-description: "Build offline Android character sheet flows"
 ---
 
 # Android Offline Character Sheet

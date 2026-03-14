@@ -1,0 +1,7 @@
+interface:
+  display_name: "OpenAPI to Jakarta REST"
+  short_description: "Map OpenAPI contracts to Jakarta REST code"
+  default_prompt: "Use $openapi-to-jakarta-rest to implement server code from an OpenAPI contract using Jakarta REST patterns."
+
+policy:
+  allow_implicit_invocation: true

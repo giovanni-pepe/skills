@@ -1,6 +1,8 @@
 ---
 name: angular-nx-test-target-setup
 description: Add and standardize pure Angular Nx unit test targets with incremental coverage adoption. Use when projects were generated without tests, when test targets are missing, or when frontend confidence is too low for safe refactoring.
+metadata:
+  short-description: "Add Nx unit test targets pragmatically"
 ---
 
 # Angular Nx Test Target Setup

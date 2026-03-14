@@ -1,0 +1,7 @@
+interface:
+  display_name: "PBI to User Story"
+  short_description: "Turn PBI notes into clear user stories"
+  default_prompt: "Use $pbi-to-user-story to convert a product backlog item into a clear user story and delivery-ready acceptance criteria."
+
+policy:
+  allow_implicit_invocation: true

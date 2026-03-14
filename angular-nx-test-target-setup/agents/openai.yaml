@@ -1,4 +1,7 @@
 interface:
   display_name: "Angular Nx Test Target Setup"
   short_description: "Add Nx unit test targets pragmatically"
-  default_prompt: "Add or update Angular Nx unit test targets and focused test suites with minimal disruption."
+  default_prompt: "Use $angular-nx-test-target-setup to add or standardize Angular Nx unit test targets with minimal disruption."
+
+policy:
+  allow_implicit_invocation: true

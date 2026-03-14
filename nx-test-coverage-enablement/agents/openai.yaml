@@ -1,4 +1,7 @@
 interface:
   display_name: "Nx Test Coverage Enablement"
   short_description: "Enable practical Nx tests and coverage"
-  default_prompt: "Enable or improve Nx unit test setup and coverage strategy for this Angular workspace with minimal disruption."
+  default_prompt: "Use $nx-test-coverage-enablement to enable or improve Nx unit tests and pragmatic coverage gates."
+
+policy:
+  allow_implicit_invocation: true

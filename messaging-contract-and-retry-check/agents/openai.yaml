@@ -1,0 +1,7 @@
+interface:
+  display_name: "Messaging Contract & Retry Check"
+  short_description: "Audit messaging contracts, retries, and DLQs"
+  default_prompt: "Use $messaging-contract-and-retry-check to review messaging contracts, retry flows, and dead-letter handling."
+
+policy:
+  allow_implicit_invocation: true

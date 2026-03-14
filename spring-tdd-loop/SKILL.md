@@ -4,6 +4,8 @@ description: >-
   Strict Spring Boot TDD workflow: discover the repo’s real test commands (no guessing), run red-green-refactor in tiny steps,
   write/adjust JUnit 5 + Mockito tests (MockMvc for HTTP) before code, keep the repo green, preserve backwards compatibility unless authorized,
   and finish with a change/test/commands summary. Use whenever Codex must modify a Spring Boot service with disciplined TDD.
+metadata:
+  short-description: "Drive Spring Boot changes with strict TDD"
 ---
 
 # Spring TDD Loop

@@ -4,6 +4,8 @@ description: >-
   Implement Spring Boot endpoints from an OpenAPI spec: locate YAML/JSON contracts, honor existing springdoc/generator conventions,
   create/adjust controllers + DTOs + validation + error mapping, back everything with MockMvc tests (happy path, validation, edge),
   and finish with a checklist of endpoints, tests, and commands.
+metadata:
+  short-description: "Map OpenAPI contracts to Spring code"
 ---
 
 # OpenAPI to Spring

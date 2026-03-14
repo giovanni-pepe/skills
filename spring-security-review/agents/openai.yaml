@@ -1,0 +1,7 @@
+interface:
+  display_name: "Spring Security Review"
+  short_description: "Review Spring Security changes safely"
+  default_prompt: "Use $spring-security-review to review or adjust Spring Security behavior with minimal, tested changes."
+
+policy:
+  allow_implicit_invocation: true

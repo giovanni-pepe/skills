@@ -1,0 +1,7 @@
+interface:
+  display_name: "Test Command Discovery"
+  short_description: "Discover repo-native test and verify commands"
+  default_prompt: "Use $test-command-discovery to discover the repository's real unit, verify, integration, and lint commands."
+
+policy:
+  allow_implicit_invocation: true

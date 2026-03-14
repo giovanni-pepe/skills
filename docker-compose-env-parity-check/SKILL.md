@@ -1,6 +1,8 @@
 ---
 name: docker-compose-env-parity-check
 description: Audit docker compose environment parity and service drift across development, testing, and staging in this repo. Use when deployment behavior diverges by environment, when adding env vars/services, or when backend, Keycloak, Redis, and Postgres wiring must remain consistent.
+metadata:
+  short-description: "Detect compose env and service drift safely"
 ---
 
 # Docker Compose Env Parity Check

@@ -1,4 +1,7 @@
 interface:
   display_name: "Django + Angular OpenAPI Client Sync"
-  short_description: "Sync DRF schema and generated Angular client together"
-  default_prompt: "Apply backend API contract changes and regenerate the paired Angular client with this repo conventions, then verify callers."
+  short_description: "Sync DRF schema and Angular client together"
+  default_prompt: "Use $django-angular-openapi-client-sync to update a Django API contract and regenerate the paired Angular client safely."
+
+policy:
+  allow_implicit_invocation: true

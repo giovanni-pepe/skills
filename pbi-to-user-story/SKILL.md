@@ -7,7 +7,7 @@ description: >-
   or notes into a structured, verifiable user story—without asking follow-up questions and
   without inventing missing details.
 metadata:
-  short-description: Convert PBI draft to User Story template
+  short-description: "Turn PBI notes into clear user stories"
   version: "1.1"
 ---
 

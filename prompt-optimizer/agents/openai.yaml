@@ -1,0 +1,7 @@
+interface:
+  display_name: "Prompt Optimizer"
+  short_description: "Turn rough prompts into production-ready prompts"
+  default_prompt: "Use $prompt-optimizer to transform a rough request into a structured, copy-paste-ready prompt."
+
+policy:
+  allow_implicit_invocation: true

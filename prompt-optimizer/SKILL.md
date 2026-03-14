@@ -1,6 +1,8 @@
 ---
 name: prompt-optimizer
 description: Transform any rough user goal or prompt into a copy/paste-ready optimized prompt with explicit persona, context, structured instructions, examples, constraints, and defaults; use whenever the user requests prompt improvements, refinements, or "make this a better prompt."
+metadata:
+  short-description: "Turn rough prompts into production-ready prompts"
 ---
 
 # Prompt Optimizer

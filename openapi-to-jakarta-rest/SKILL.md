@@ -1,6 +1,8 @@
 ---
 name: openapi-to-jakarta-rest
 description: Implement Jakarta EE REST/Servlet endpoints from an OpenAPI spec in hexagonal Maven multi-module repos (non-Spring). Use when translating OpenAPI into JAX-RS/Servlet resources, DTO records + manual mappers, contract-aligned validation and errors, JUnit 5 + Mockito tests, and verified Maven + Spotless commands.
+metadata:
+  short-description: "Map OpenAPI contracts to Jakarta REST code"
 ---
 
 # OpenAPI to Jakarta REST

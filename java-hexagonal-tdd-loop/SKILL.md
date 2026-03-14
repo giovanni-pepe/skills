@@ -1,6 +1,8 @@
 ---
 name: java-hexagonal-tdd-loop
 description: Strict Java/Jakarta EE hexagonal TDD workflow for Maven multi-module repos (non-Spring, WAR, JAX-RS/Servlet, CDI wiring). Use when modifying this repo or similar hexagonal Java EE services; require command discovery, red-green-refactor with JUnit 5 + Mockito, Spotless checks, and boundary enforcement.
+metadata:
+  short-description: "Drive Java hexagonal changes with TDD"
 ---
 
 # Java Hexagonal TDD Loop

@@ -1,0 +1,7 @@
+interface:
+  display_name: "CXF WS-Security Config Audit"
+  short_description: "Audit CXF WS-Security configs safely"
+  default_prompt: "Use $cxf-ws-security-config-audit to audit CXF WS-Security settings and propose minimal hardening steps."
+
+policy:
+  allow_implicit_invocation: true

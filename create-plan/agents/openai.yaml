@@ -1,0 +1,7 @@
+interface:
+  display_name: "Create Plan Orchestrator"
+  short_description: "Create execution-ready repo-aware plans"
+  default_prompt: "Use $create-plan to produce a concise, execution-ready plan grounded in this repository."
+
+policy:
+  allow_implicit_invocation: true

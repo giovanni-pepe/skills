@@ -1,6 +1,8 @@
 ---
 name: nx-test-coverage-enablement
 description: Introduce pragmatic test and coverage capability in this Nx Angular workspace with minimal disruption. Use when frontend libraries or pages lack tests, when CI misses quality gates, or when adding test targets to projects generated with unitTestRunner set to none.
+metadata:
+  short-description: "Enable practical Nx tests and coverage"
 ---
 
 # Nx Test Coverage Enablement

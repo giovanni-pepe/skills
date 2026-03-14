@@ -1,0 +1,7 @@
+interface:
+  display_name: "Java Hexagonal TDD Loop"
+  short_description: "Drive Java hexagonal changes with TDD"
+  default_prompt: "Use $java-hexagonal-tdd-loop to implement Java hexagonal changes through a strict TDD loop."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,6 +1,8 @@
 ---
 name: angular-openapi-client-consumer
 description: Implement frontend features that consume ng-openapi generated TypeScript clients in this Angular workspace. Use when updating API service calls, models, and adapters while preserving generated-code boundaries.
+metadata:
+  short-description: "Integrate generated API client safely"
 ---
 
 # Angular OpenAPI Client Consumer

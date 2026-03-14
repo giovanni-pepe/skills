@@ -1,0 +1,7 @@
+interface:
+  display_name: "Android Offline Character Sheet"
+  short_description: "Build offline Android character sheet flows"
+  default_prompt: "Use $android-offline-character-sheet to scaffold or evolve an offline-first Android character sheet workflow."
+
+policy:
+  allow_implicit_invocation: true

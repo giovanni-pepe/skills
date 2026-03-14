@@ -5,7 +5,7 @@ description: >-
   and perform a gap analysis to recommend and generate new repo-specific skills (without modifying existing skills).
   Use whenever starting work in a repo or when outputs feel misaligned with repo patterns.
 metadata:
-  short-description: Profile repo and generate new repo-specific skills
+  short-description: "Profile repos and propose skill gaps"
 ---
 
 # Repo Profile & Skill Adapter

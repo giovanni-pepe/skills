@@ -1,6 +1,8 @@
 ---
 name: angular-primeng-ui-patterns
 description: Build and refine pure Angular UI using PrimeNG and repository UI conventions. Use when creating components, page composition, i18n-aware templates, and shared UI library elements in this Nx workspace.
+metadata:
+  short-description: "Build PrimeNG UI with repo conventions"
 ---
 
 # Angular PrimeNG UI Patterns

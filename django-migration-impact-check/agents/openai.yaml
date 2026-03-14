@@ -1,4 +1,7 @@
 interface:
   display_name: "Django Migration Impact Check"
   short_description: "Review Django migration rollout safety"
-  default_prompt: "Review pending Django migrations for deployment risk, reversibility, and startup impact, then propose safe adjustments."
+  default_prompt: "Use $django-migration-impact-check to review pending Django migrations for rollout risk and reversibility."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,6 +1,8 @@
 ---
 name: angular-nx-feature-slice-scaffold
 description: Scaffold and wire pure Angular feature slices in this Nx workspace. Use when adding new pages, route trees, or frontend libraries under core, ui, or pages without backend changes.
+metadata:
+  short-description: "Scaffold Angular Nx page and feature slices"
 ---
 
 # Angular Nx Feature Slice Scaffold

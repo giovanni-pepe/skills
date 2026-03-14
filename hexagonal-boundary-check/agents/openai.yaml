@@ -1,0 +1,7 @@
+interface:
+  display_name: "Hexagonal Boundary Check"
+  short_description: "Check hexagonal boundaries and dependency drift"
+  default_prompt: "Use $hexagonal-boundary-check to inspect hexagonal boundaries and flag dependency direction drift."
+
+policy:
+  allow_implicit_invocation: true

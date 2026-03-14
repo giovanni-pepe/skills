@@ -1,6 +1,8 @@
 ---
 name: django-angular-nx-delivery-loop
 description: Execute combined Django backend plus Nx Angular frontend changes in Waterjade Forge with repo-native commands and verification. Use when implementing or fixing features that touch backend APIs, frontend routes/libs, authentication wiring, OpenAPI client generation, or cross-layer behavior.
+metadata:
+  short-description: "Deliver combined Django + Angular Nx changes safely"
 ---
 
 # Django + Angular Nx Delivery Loop

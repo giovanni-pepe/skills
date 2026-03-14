@@ -1,6 +1,8 @@
 ---
 name: angular-oidc-guard-hardening
 description: Audit and harden frontend-only OIDC authentication and route authorization flows in this Angular repo. Use when login redirects, token refresh, route guards, or group-based access checks behave incorrectly.
+metadata:
+  short-description: "Harden Angular OIDC guards and token flow"
 ---
 
 # Angular OIDC Guard Hardening

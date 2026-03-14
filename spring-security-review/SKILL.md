@@ -4,6 +4,8 @@ description: >-
   Review and update Spring Security configs for a feature: inventory SecurityFilterChain/method security/JWT-session/CORS-CSRF,
   apply minimal authorization changes (no guessing, repo-grounded), add MockMvc security tests (auth/unauth/forbidden),
   flag risky defaults, and close with a security note plus verification steps using the repo’s real commands.
+metadata:
+  short-description: "Review Spring Security changes safely"
 ---
 
 # Spring Security Review

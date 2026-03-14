@@ -1,6 +1,8 @@
 ---
 name: test-command-discovery
 description: Discover and report the repository's real build/test/lint commands by reading wrappers, build configs, and CI pipelines. Use this before running any tests or builds so other skills never guess how to execute unit, integration, verify, or lint tasks.
+metadata:
+  short-description: "Discover repo-native test and verify commands"
 ---
 
 # Test Command Discovery

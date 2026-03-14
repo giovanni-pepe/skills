@@ -2,7 +2,7 @@
 name: create-plan-orchestrator
 description: Create a concise but execution-ready plan that can be handed off to other skills. Use only when the user explicitly asks for a plan related to a coding task.
 metadata:
-  short-description: Create an execution-ready plan for orchestration
+  short-description: "Create execution-ready repo-aware plans"
 ---
 
 # Create Plan Orchestrator

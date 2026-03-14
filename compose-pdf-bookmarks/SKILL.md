@@ -1,6 +1,8 @@
 ---
 name: compose-pdf-bookmarks
 description: Implement offline PDF library, SAF import, persisted URI permissions, and page bookmarks inside the Ultima Torcia Compose app. Use when adding PDF storage, viewer UI, or bookmark/share features.
+metadata:
+  short-description: "Add Compose PDF bookmark workflows"
 ---
 
 # Compose PDF Bookmarks

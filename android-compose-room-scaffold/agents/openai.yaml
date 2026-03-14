@@ -1,0 +1,7 @@
+interface:
+  display_name: "Android Compose + Room Scaffold"
+  short_description: "Bootstrap Android Compose + Room scaffold"
+  default_prompt: "Use $android-compose-room-scaffold to create a minimal Android Compose + Room project scaffold that matches this repo."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "OpenAPI to Spring"
+  short_description: "Map OpenAPI contracts to Spring code"
+  default_prompt: "Use $openapi-to-spring to implement or align Spring server code from an OpenAPI contract."
+
+policy:
+  allow_implicit_invocation: true

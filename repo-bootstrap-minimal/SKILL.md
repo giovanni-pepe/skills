@@ -1,6 +1,8 @@
 ---
 name: repo-bootstrap-minimal
 description: Create a minimal, runnable repo bootstrap spec without assumptions. Use when the user wants a scaffold plan and checklist but must choose language, runtime, build tool, architecture, tests, formatting, packaging, modules, and CI explicitly.
+metadata:
+  short-description: "Define a minimal runnable repo bootstrap"
 ---
 
 # Repo Bootstrap Minimal

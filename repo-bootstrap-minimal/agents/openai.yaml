@@ -1,0 +1,7 @@
+interface:
+  display_name: "Repo Bootstrap Minimal"
+  short_description: "Define a minimal runnable repo bootstrap"
+  default_prompt: "Use $repo-bootstrap-minimal to define a minimal, runnable repository bootstrap without guessing the stack."
+
+policy:
+  allow_implicit_invocation: true

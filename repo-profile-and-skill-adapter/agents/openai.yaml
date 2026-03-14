@@ -1,0 +1,7 @@
+interface:
+  display_name: "Repo Profile & Skill Adapter"
+  short_description: "Profile repos and propose skill gaps"
+  default_prompt: "Use $repo-profile-and-skill-adapter to profile this repository and recommend repo-specific skill additions."
+
+policy:
+  allow_implicit_invocation: true

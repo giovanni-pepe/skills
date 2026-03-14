@@ -1,0 +1,7 @@
+interface:
+  display_name: "Compose Dice Best Of Engine"
+  short_description: "Implement Compose best-of dice engine"
+  default_prompt: "Use $compose-dice-best-of-engine to implement or refine best-of dice mechanics for a Compose app."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,6 +1,8 @@
 ---
 name: cxf-ws-security-config-audit
 description: Audit and harden outbound SOAP CXF WS-Security/JAAS configuration in hexagonal Maven multi-module repos. Use when modifying CXF clients, interceptors, or config loading to inventory codegen, auth chain, required runtime config, risks, and focused JUnit 5 tests.
+metadata:
+  short-description: "Audit CXF WS-Security configs safely"
 ---
 
 # CXF WS-Security Config Audit

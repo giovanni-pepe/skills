@@ -1,6 +1,8 @@
 ---
 name: compose-dice-best-of-engine
 description: Implement and test the Ultima Torcia best-of dice roller in Jetpack Compose. Use when adding runtime die selection, per-stat diceCount/modifier persistence, deterministic RNG, and UI feedback for rolls.
+metadata:
+  short-description: "Implement Compose best-of dice engine"
 ---
 
 # Compose Dice Best Of Engine

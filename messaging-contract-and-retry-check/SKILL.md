@@ -1,6 +1,8 @@
 ---
 name: messaging-contract-and-retry-check
 description: Audit and harden Camel-based messaging with Azure Service Bus in hexagonal Maven multi-module repos. Use to inventory message contracts, retry/DLQ behavior, exception handling, idempotency, and route safety, and to add focused JUnit 5 tests when changing routes.
+metadata:
+  short-description: "Audit messaging contracts, retries, and DLQs"
 ---
 
 # Messaging Contract & Retry Check

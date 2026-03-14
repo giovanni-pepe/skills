@@ -1,6 +1,8 @@
 ---
 name: django-angular-openapi-client-sync
 description: Keep DRF API contracts and generated Angular client code synchronized in this combined stack repo. Use when backend serializers/views change API shape, when endpoints are added or removed, or when frontend types/services from ng-openapi-gen are stale.
+metadata:
+  short-description: "Sync DRF schema and Angular client together"
 ---
 
 # Django + Angular OpenAPI Client Sync

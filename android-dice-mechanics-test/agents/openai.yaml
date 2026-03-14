@@ -1,0 +1,7 @@
+interface:
+  display_name: "Android Dice Mechanics Test"
+  short_description: "Test deterministic Android dice mechanics"
+  default_prompt: "Use $android-dice-mechanics-test to add or refine deterministic tests for Android dice roll mechanics."
+
+policy:
+  allow_implicit_invocation: true

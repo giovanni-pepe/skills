@@ -1,6 +1,8 @@
 ---
 name: django-migration-impact-check
 description: Review Django migration safety and rollout impact for this repo. Use when creating or modifying migrations, changing model defaults, adding data migrations, or preparing deploy pipelines that execute migrate automatically.
+metadata:
+  short-description: "Review Django migration rollout safety"
 ---
 
 # Django Migration Impact Check

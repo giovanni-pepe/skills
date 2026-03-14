@@ -1,0 +1,7 @@
+interface:
+  display_name: "Compose PDF Bookmarks"
+  short_description: "Add Compose PDF bookmark workflows"
+  default_prompt: "Use $compose-pdf-bookmarks to add or refine PDF bookmark flows in a Jetpack Compose app."
+
+policy:
+  allow_implicit_invocation: true

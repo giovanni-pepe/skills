@@ -4,6 +4,8 @@ description: >-
   Bootstrap a missing Android project in this repo: create Gradle/Android scaffolding with a single :app module
   configured for Kotlin + Jetpack Compose + Room (KSP) + Coroutines, plus a minimal launchable Compose screen and
   a tiny Room sample that compiles. Use when the repo has no Android/Gradle setup yet.
+metadata:
+  short-description: "Bootstrap Android Compose + Room scaffold"
 ---
 
 # Android Compose + Room Scaffold

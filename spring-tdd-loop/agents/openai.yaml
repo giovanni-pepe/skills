@@ -1,0 +1,7 @@
+interface:
+  display_name: "Spring TDD Loop"
+  short_description: "Drive Spring Boot changes with strict TDD"
+  default_prompt: "Use $spring-tdd-loop to implement Spring Boot changes through disciplined red-green-refactor steps."
+
+policy:
+  allow_implicit_invocation: true

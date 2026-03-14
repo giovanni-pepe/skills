@@ -1,6 +1,8 @@
 ---
 name: django-angular-keycloak-oauth2-config-audit
 description: Audit and harden Keycloak plus OAuth2/JWT configuration across the combined Django backend and Angular frontend in this repo. Use when changing auth settings, Keycloak realms/clients, token claims, webhook security, or when login/authorization behavior differs across backend, frontend, and docker environments.
+metadata:
+  short-description: "Audit combined Django + Angular auth config parity"
 ---
 
 # Django + Angular Keycloak OAuth2 Config Audit

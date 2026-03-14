@@ -1,6 +1,8 @@
 ---
 name: hexagonal-boundary-check
 description: Audit Maven multi-module hexagonal/ports-and-adapters repos for boundary violations. Use to read CODING_RULES.md and module poms, verify dependency directions, detect adapter?adapter or domain?adapter coupling, flag layering leaks, and recommend minimal fixes.
+metadata:
+  short-description: "Check hexagonal boundaries and dependency drift"
 ---
 
 # Hexagonal Boundary Check
