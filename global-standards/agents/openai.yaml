@@ -1,0 +1,7 @@
+interface:
+  display_name: "Global Standards"
+  short_description: "Apply strong default standards across repositories"
+  default_prompt: "Use $global-standards to apply a consistent engineering playbook with repository-aware overrides before implementing, reviewing, refactoring, or validating changes."
+
+policy:
+  allow_implicit_invocation: true
