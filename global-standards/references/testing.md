@@ -1,6 +1,7 @@
 # Testing Standards
 
-- Every behavior change should add or update the closest targeted test unless the repository genuinely lacks a viable test path.
+- Default to TDD. Every behavior change should start with the closest targeted failing automated test unless the task is pure analysis/documentation or the repository genuinely lacks a viable test path.
+- If the current harness is weak but improvable at reasonable cost, strengthen the harness first instead of skipping the failing-test step.
 - Prefer repository-native commands over guessed tool invocations. If the repo exposes a wrapper script, use it as the canonical command.
 - Match validation depth to risk: unit or focused tests for local logic, integration or end-to-end coverage for wiring, auth, persistence, or messaging changes.
 - For bug fixes, add a regression check whenever the harness can express the failure.

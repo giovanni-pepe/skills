@@ -8,16 +8,19 @@ metadata:
 # Java Hexagonal TDD Loop
 
 ## Operating Principles
+- Before coding, inspect the locally available skills and combine this skill with any more specific local skill that matches the task.
 - Do not guess commands, modules, profiles, or wiring; discover from pom.xml and repo docs.
-- Write tests first; each behavior change starts with a failing test.
+- Treat TDD as mandatory for behavior changes; each slice starts with a failing automated test.
 - Preserve hexagonal boundaries per CODING_RULES.md; do not create adapter-to-adapter deps; keep domain pure.
+- Apply DRY, SOLID, KISS, and YAGNI pragmatically while refactoring after green.
 - Keep repo green; fix failures before moving on.
 - Run Spotless check when Java code changes.
 
 ## Quick Start
-1. If commands are not known, run test-command-discovery and record unit, full verify, and Spotless commands.
-2. Read CODING_RULES.md to confirm module ownership and dependency rules.
-3. Identify target module and define a small vertical slice.
+1. Inspect the locally available skills and select any repo- or task-specific skills that should be layered with this one.
+2. If commands are not known, run test-command-discovery and record unit, full verify, and Spotless commands.
+3. Read CODING_RULES.md to confirm module ownership and dependency rules.
+4. Identify target module and define a small vertical slice.
 
 ## Step 1 - Inspect & Prepare
 - Inspect root pom.xml for modules and Java version.
@@ -39,7 +42,7 @@ metadata:
 1. Red: add or modify a JUnit 5 test that fails.
 2. Green: implement the minimal code to pass.
 3. Verify: run the narrowest verified Maven target if supported; then run the unit suite.
-4. Refactor: clean only what you touched while keeping tests green.
+4. Refactor: clean only what you touched while keeping tests green, improving duplication, responsibility clarity, and simplicity without speculative abstractions.
 
 ## Step 4 - Module Guidance (hexagonal)
 - Domain: avoid frameworks/adapters; use value objects.
@@ -63,3 +66,4 @@ Summarize:
 - Do not add Spring or Spring test utilities.
 - Do not violate CODING_RULES.md dependency rules.
 - Prefer additive, backward-compatible behavior unless explicitly authorized.
+- If a requested change cannot start from a failing test, explain the blocker and either create the missing test seam first or state why the task is analysis-only.

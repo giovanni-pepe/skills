@@ -1,0 +1,7 @@
+interface:
+  display_name: "Review Codice Backend"
+  short_description: "Review backend con findings per severita"
+  default_prompt: "Usa $backend-code-review per fare review pre-merge del codice backend cambiato e riportare solo problemi critical, major e minor."
+
+policy:
+  allow_implicit_invocation: true

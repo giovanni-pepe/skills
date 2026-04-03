@@ -1,6 +1,6 @@
 ---
 name: global-standards
-description: Apply a strong cross-project engineering baseline for implementation, review, refactor, and bugfix work. Use this as the default operating playbook unless the active repository documents stricter or conflicting rules in CODING_RULES.md, README.md, CONTRIBUTING.md, or pull request templates.
+description: Apply a strong cross-project engineering baseline for non-trivial implementation, review, refactor, and bugfix work. Use this at the start of coding tasks as the default operating playbook unless the active repository documents stricter or conflicting rules in CODING_RULES.md, README.md, CONTRIBUTING.md, or pull request templates.
 metadata:
   short-description: Apply default engineering standards across projects
 ---
@@ -15,6 +15,10 @@ Use this skill as the default working baseline across repositories. It defines s
 
 Before applying defaults, inspect the active repository for local instructions. Read, in this order when present: `CODING_RULES.md`, `README.md`, `CONTRIBUTING.md`, `.github/pull_request_template.md`, and the build or CI files that reveal real commands.
 
+## Skill Discovery Gate
+
+Before substantial work, inspect the locally available skills and decide whether one or more task-specific skills apply. Prefer using the most specific local skill that matches the task, then layer this baseline underneath it. If no local skill fits, proceed with this baseline and say so briefly.
+
 ## Precedence
 
 Honor instructions in this order:
@@ -28,8 +32,11 @@ If the repository documents a rule that conflicts with this skill, follow the re
 ## Default Operating Rules
 
 - Ground decisions in actual files and commands. Do not invent scripts, build targets, module boundaries, or deployment steps.
+- Check local skills before implementing, debugging, or reviewing non-trivial code changes.
+- Default to TDD for behavior changes: start from a failing automated test, make the smallest code change to pass it, then refactor safely.
 - Prefer the smallest coherent change that solves the task without broad refactors unless the request requires it.
 - Preserve existing architecture, naming, and dependency direction inside the touched area.
+- Apply design principles pragmatically: keep code DRY, prefer KISS, avoid speculative work per YAGNI, and preserve clear responsibilities and boundaries in line with SOLID.
 - Prefer code that is easy to scan and explain: clear names, small coherent units, shallow nesting, and explicit control flow over clever shortcuts.
 - When the worktree is dirty, never revert unrelated changes. Work around them unless they directly block the task.
 - Before editing, identify how the change will be validated. After editing, run the narrowest meaningful checks first and broader checks only when warranted.
