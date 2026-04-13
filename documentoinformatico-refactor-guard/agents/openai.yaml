@@ -1,0 +1,6 @@
+interface:
+  display_name: "DocumentoInformatico Refactor Guard"
+  short_description: "Repo-specific refactor guard for DocumentoInformatico"
+  default_prompt: "Use $documentoinformatico-refactor-guard to review and apply conservative refactors in the DocumentoInformatico repo."
+policy:
+  allow_implicit_invocation: false
