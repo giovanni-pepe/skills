@@ -1,9 +1,8 @@
-# Codex Skills - Toolkit personale per sviluppi con Codex
-### Condiviso per colmare il vuoto di skill disponibili e raccogliere migliorie dalla community
+<p align="center"><img src="assets/skills.svg" alt="Codex Skills" width="100%" /></p>
 
-Queste sono le skill che utilizzo per i miei sviluppi personali con Codex.
-Ho deciso di pubblicarle perche' ho notato che in giro ce n'e' una certa assenza di skills.
-Se qualcuno ha migliorie da proporre alle skills, sono ben accette. Apri una PR!
+Skill e workflow che utilizzo nei miei sviluppi personali con Codex. Li condivido per raccogliere idee e migliorie dalla community.
+
+[Guida operativa](#guida-operativa-repository) · [Proponi una miglioria](https://github.com/giovanni-pepe/skills/pulls) · [Segnala un problema](https://github.com/giovanni-pepe/skills/issues)
 
 ---
 
